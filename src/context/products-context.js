@@ -1,3 +1,8 @@
+/**
+ * ContextAPI is good for low frequency state updates like auth
+ * it re renders all the components that use it even if they aren't effected
+ * but the state update or not
+ */
 import React, { useState } from 'react';
 
 // products array is the same as what was in the redux store
