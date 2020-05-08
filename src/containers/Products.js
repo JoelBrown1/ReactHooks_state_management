@@ -11,7 +11,7 @@ const Products = props => {
   // const productList = useSelector(state => state.shop.products);
   
   // using the context API
-  const productList = useContext(ProductContext).products;
+  const productList = useContext(ProductContext).products ;
   console.log('what is in productList: ', productList);
   
   return (
